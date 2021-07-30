@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    position: relative;
+    background-image: url("https://as1.ftcdn.net/jpg/02/27/07/38/500_F_227073894_XL0gX3ovSllYjynYTQ7ts7crIK4RJ3Jg.jpg");
+    background-size: 50%;
+    margin: 10% 20%;
+}
+
+#container #title {
+    padding-top: 10px;
+    text-align: center;
+}
+
+#container #quiz {
+    border: 3px solid pink;
+    /* background-clip: content-box; */
+    background-color: rgba(218, 171, 171, 0.4);
+    padding: 2px;
+    margin: 5% 20%;
+}
+
+#container .div-button-startover,
+#container .div-button {
+    text-align: center;
+    margin: 12px 12px;
+}
+
+#container .div-button-startover .button,
+#container .div-button .button {
+    background-color: plum;
+    width: 150px;
+    text-align: center;
+    padding: 15px 10px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#container .div-button-startover .button:hover,
+#container .div-button .button:hover {
+    background-color: palevioletred;
+    color: white;
+}
