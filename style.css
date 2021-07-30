@@ -45,3 +45,9 @@
     background-color: palevioletred;
     color: white;
 }
+
+@media (max-width: 1000px) {
+    #container {
+        margin: 0;
+    }
+}
